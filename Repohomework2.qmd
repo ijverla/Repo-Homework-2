@@ -1,0 +1,15 @@
+---
+title: "Untitled"
+format: pdf
+editor: visual
+---
+
+
+## Question 1
+
+```{r}
+#| eval: false
+install.packages("aRtsy")
+```
+
+Install packages only installs the package to R but library activates the package once already installed.
