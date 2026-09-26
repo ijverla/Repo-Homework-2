@@ -13,3 +13,12 @@ install.packages("aRtsy")
 ```
 
 Install packages only installs the package to R but library activates the package once already installed.
+
+## Question 2
+
+```{r}
+library(aRtsy)
+```
+
+ a_{n+1} = \begin{cases} a_n/2 & \text{if } a_n \equiv 0 \pmod{2} \\ 3a_n + 1 & \text{if } a_n \equiv 1 \pmod{2} \end{cases}
+ 
