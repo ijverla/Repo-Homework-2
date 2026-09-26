@@ -4,6 +4,7 @@ format: pdf
 editor: visual
 ---
 
+# Packages
 
 ## Question 1
 
@@ -21,4 +22,22 @@ library(aRtsy)
 ```
 
  a_{n+1} = \begin{cases} a_n/2 & \text{if } a_n \equiv 0 \pmod{2} \\ 3a_n + 1 & \text{if } a_n \equiv 1 \pmod{2} \end{cases}
- 
+
+## Question 3
+
+#### a.
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  set.seed(30)
+)
+```
+
+It displayed an image. The image had blue lines that look randomly drawn.
+#### b.
+
+n seems to be the number of lines that the code generates
+
+This might be tricky for a file because every time it refreshes the file will have to change as well.
+
+set.seed will lock in place the RNG status. The picture comes out the same everytime.
